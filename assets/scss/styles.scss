@@ -1,0 +1,19 @@
+//====================================
+// Global Imports
+//====================================
+
+
+// 1 - Import base style, custom variables and mixins
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/base';
+
+// 2 - Import modules
+@import 'modules/button';
+@import 'modules/media-queries';
+
+// 3 - Import pages
+@import 'pages/home';
+@import 'pages/access';
+@import 'pages/recoverAccess';
+@import 'pages/register';

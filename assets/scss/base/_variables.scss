@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #525252;
+    --secondary-color: #F58461;
+
+    --heading-color: #292922;
+
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    --neutral-color-0: #EBEBEB;
+    --neutral-color-1: #F6F6F6;
+    --neutral-color-2: #D1D1D1;
+    --neutral-color-3: #525252;
+    --neutral-color-4: #383838;
+    --neutral-color-5: #1E1E1E;
+    --neutral-color-6: #1C1B1F;
+    --neutral-color-7: #B8B8B8;
+
+
+    --red-color: #FF3333;
+
+    --font-family: 'Oxygen';
+
+    --font-size-xxxg: 40px;
+    --font-size-xxg: 32px;
+    --font-size-xg: 24px;
+    --font-size-lg: 20px;
+    --font-size-md: 16px;
+    --font-size-sm: 14px;
+    --font-size-xs: 12px;
+    --font-size-xxs: 10px;
+    --font-size-xxxs: 8px;
+
+
+}
+
+// Pixels X REM
+$browser-context: 16;
+@function rem($pixels, $context: $browser-context) {
+    @return #{$pixels/$context}rem;
+}

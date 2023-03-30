@@ -1,0 +1,201 @@
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  .banner__container {
+    background-image: url('../images/bg-image.png');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    .logo__container {
+      padding: 25px 50px;      
+    }
+
+    .slogan__container {
+      width: 583px;
+      position: absolute;
+      bottom: 64px;
+      left: 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      p {
+        font-size: var(--font-size-xxxg);
+        color: var(--white-color);
+        line-height: 48px;
+      }
+
+     
+    }
+  }
+
+  .notice__card__container {
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+
+    span {
+      font-size: var(--font-size-md);
+      line-height: 24px;
+
+      &.span--limited {
+        max-width: 292px;
+      }
+    }
+    
+    &.notice__card__container--dark {
+      background-color: var(--neutral-color-5);
+
+      span {
+        color: var(--white-color);
+      }
+      
+    }
+
+    &.notice__card__container--light {
+      background-color: var(--neutral-color-1);
+
+      span {
+        color: var(--neutral-color-5);
+      }
+    }
+
+    
+  }
+  .action__container {
+    background-color: var(--white-color);
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 60px;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+  
+        .page__title__container {
+          width: 296px;
+  
+          h3 {
+            font-size: var(--font-size-xxg);
+            font-weight: 700;
+            line-height: 40px;
+            color: var(--neutral-color-5);
+          }
+        }
+  
+        .input__container {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+
+          .error__message {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+
+            p {
+              color: var(--red-color);
+              font-size: var(--font-size-sm);
+            }
+          }
+  
+          label {
+            color: var(--neutral-color-4);
+            font-size: var(--font-size-sm);
+            font-weight: 700;
+
+            &.error {
+              color: var(--red-color);
+            }
+          }
+  
+          input {
+            padding: 24px 40px 24px 24px;
+            outline: none;
+            border: solid 2px var(--neutral-color-2);
+            font-size: var(--font-size-sm);
+
+            &.error {
+              border: solid 2px var(--red-color);
+            }
+
+            &:focus {
+              border: 2px solid var(--secondary-color);
+            }
+          }
+
+        }
+  
+        .button__container {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+        }
+      }
+
+      .separator {
+        height: 1px;
+        background-color: var(--neutral-color-2);
+      }
+
+      section {
+
+        &.first__access__section {
+
+          display: flex;
+          flex-direction: column;
+          gap: 30px; 
+          .section__title {
+
+            h4 {
+              color: var(--neutral-color-5);
+              font-size: var(--font-size-lg);
+              line-height: 32px;
+            }
+          }
+
+          .options__cards__container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .options__card {
+              display: flex;
+              justify-content: space-between;
+
+              .options__card__label {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h5 {
+                  font-size: var(--font-size-md);
+                  font-weight: 700;
+                  line-height: 24px;
+                  color: var(--neutral-color-5);
+                }
+
+                p {
+                  font-size: var(--font-size-sm);
+                  line-height: 24px;
+                }
+              }
+
+              .card__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Smiles VIAGENS</title>
+
+  <link rel="stylesheet" href="../assets/css/styles.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="banner__container">
+      <a href="../index.html" class="logo__container">
+        <img src="../assets/images/logo.png" alt="">
+      </a>
+    </div>
+
+    <div class="action__container action__container--dark">
+      <main>
+        <div class="tabs">
+          <div class="tab-links button__tabs__container">
+            <button class="btn-tab" data-id="email" data-default>E-mail</button>
+            <button class="btn-tab" data-id="dados">Dados</button>
+            <button class="btn-tab" data-id="senha">Senha</button>
+            <button class="btn-tab" data-id="validacao">Validação</button>
+          </div>
+
+
+          <div class="tab-content">
+            <section id="email" class="section__email">
+              <form>
+                <div class="page__title__container page__title__container--ligth">
+                  <h3>Crie sua conta</h3>
+                  <p>Não se preocupe. Não enviaremos spam.</p>
+                </div>
+        
+                <div class="input__container input__container--light">
+                  <label  for="">E-mail</label>
+                  <input class="input__dark" type="text" placeholder="Insira seu e-mail">
+      
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Insira um e-mail válido</p>
+                  </div>
+                </div>
+      
+                <div class="captcha__container">
+                    <label for="not-robot">
+                      <input id="not-robot" type="checkbox" name="" id="">
+                      Não sou um robô
+                    </label>
+      
+                    <img src="../assets/images/captcha.png" alt="">
+                </div>
+      
+                <div class="terms__container">
+                  <label for="">
+                    <input id="" type="checkbox" name="" id="">
+                    Ao criar sua conta, você concorda com nossos Termos e Condições e Política de Privacidade
+                  </label>
+                </div>
+        
+                <div class="button__container">
+                  <a class="btn btn-dark" href="#">Avançar</a>
+                  <a class="btn btn-dark btn-transparent" href="./access.html">Voltar</a>
+                </div>
+      
+              </form>
+            </section>
+    
+            <section id="dados" class="section__datas">
+              <form class="form__small">
+                <div class="page__title__container page__title__container--ligth">
+                  <h3>Informe seus dados</h3>
+                </div>
+        
+                <div class="input__container input__container--light">
+                  <label  for="">Nome</label>
+                  <input class="input__dark small__input" type="text" placeholder="Insira seu nome">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Preencha o campo Nome</p>
+                  </div>
+                </div>
+      
+                <div class="input__container input__container--light">
+                  <label  for="">Sobrenome</label>
+                  <input class="input__dark small__input" type="text" placeholder="Insira seu sobrenome">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Preencha o campo Sobrenome</p>
+                  </div>
+                </div>
+    
+                <div class="input__container input__container--light">
+                  <label  for="">CPF</label>
+                  <input class="input__dark small__input" type="text" placeholder="000.000.000-00">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Preencha o campo CPF</p>
+                  </div>
+                </div>
+    
+                <div class="input__container input__container--light">
+                  <label  for="">Data de nascimento</label>
+                  <input class="input__dark small__input" type="text" placeholder="DD/MM/AAAA">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Preencha o campo Data de nascimento</p>
+                  </div>
+                </div>
+    
+                <div class="input__container input__container--light">
+                  <label  for="">Telefone</label>
+                  <input class="input__dark small__input" type="text" placeholder="Insira o DDD + número do celular">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Preencha o campo Telefone</p>
+                  </div>
+                </div>
+        
+                <div class="button__container no-gap">
+                  <a class="btn btn-dark" href="#">Avançar</a>
+                  <a class="btn btn-dark btn-transparent" href="./access.html">Voltar</a>
+                </div>
+      
+              </form>
+            </section>
+    
+            <section id="senha" class="section__password">
+              <form>
+                <div class="page__title__container page__title__container--ligth" style="width: 380px;">
+                  <h3>Crie uma senha segura</h3>
+                  <p class="">Sua senha deve ter pelo menos 4 caracteres, incluindo pelo menos 1 carácter especial.</p>
+                </div>
+        
+                <div class="input__container input__container--light">
+                  <label  for="">Criar senha</label>
+                  <input class="input__dark" type="password" placeholder="* * * * * *">
+                </div>
+                
+                <div class="input__container input__container--light">
+                  <label  for="">Repetir senha</label>
+                  <input class="input__dark" type="password" placeholder="* * * * * *">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>As senhas não coincidem</p>
+                  </div>
+                </div>
+    
+                <div class="button__container">
+                  <a class="btn btn-dark" href="#">Avançar</a>
+                  <a class="btn btn-dark btn-transparent" href="./access.html">Voltar</a>
+                </div>
+      
+              </form>
+            </section>
+    
+            <section id="validacao" class="section__validation">
+              <form>
+                <div class="page__title__container page__title__container--ligth" style="width: 380px;">
+                  <h3>Digite o código de verificação</h3>
+                  <p class="">Enviamos para o número com final 0001</p>
+                </div>
+                
+                <div class="input__container input__container--light">
+                  <label  for="">Código</label>
+                  <input class="input__dark" type="text" placeholder="Insira o código">
+    
+                  <div class="error__message" style="display: none;">
+                    <img src="../assets/images/error-icon.svg" alt="">
+                    <p>Código Inválido</p>
+                  </div>
+                </div>
+    
+                <div class="code__label__container">
+                  <img src="../assets/images/loading-icon.svg" alt="">
+    
+                  <p>Reenviar código</p>
+                </div>
+    
+                <div class="button__container">
+                  <a class="btn btn-dark" href="#">Avançar</a>
+                  <a class="btn btn-dark btn-transparent" href="./access.html">Voltar</a>
+                </div>
+      
+              </form>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="../assets/javascript/script.js"></script>  
+</body>
+</html>
