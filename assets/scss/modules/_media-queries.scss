@@ -82,6 +82,7 @@ Media Querys Mobile
       padding: 30px 25px !important;
       gap: 20px !important;
       max-height: 100vh;
+      overflow: auto;
       form {
 
         .responsive-hd-title {
@@ -93,6 +94,7 @@ Media Querys Mobile
         }
 
         a {
+          padding: 1.2rem;
           &.responsive-hd {
             display: none;
           }

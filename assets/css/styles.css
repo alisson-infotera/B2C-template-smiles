@@ -231,6 +231,7 @@ Media Querys Mobile
     padding: 30px 25px !important;
     gap: 20px !important;
     max-height: 100vh;
+    overflow: auto;
   }
   .action__container main form {
     gap: 20px !important;
@@ -240,6 +241,9 @@ Media Querys Mobile
   }
   .action__container main form .button__container {
     gap: 20px !important;
+  }
+  .action__container main form a {
+    padding: 1.2rem;
   }
   .action__container main form a.responsive-hd {
     display: none;
