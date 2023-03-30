@@ -226,6 +226,45 @@ Media Querys Mobile
 /*/////////////////////// Dispositivos médios (tablets, 768px e acima) ///////////////////////////////////////////////////////////////////*/
 /*/////////////////////// Dispositivos grandes (desktops, 992 px e acima) ////////////////////////////////////////////////////////////////*/
 /*/////////////////////// Dispositivos extra grandes (grandes áreas de trabalho, 1200px e acima) /////////////////////////////////////////*/
+@media (min-width: 1200px) and (max-width: 1860px) {
+  .action__container main {
+    padding: 30px 25px !important;
+    gap: 20px !important;
+    max-height: 100vh;
+  }
+  .action__container main form {
+    gap: 20px !important;
+  }
+  .action__container main form .responsive-hd-title {
+    width: 100% !important;
+  }
+  .action__container main form .button__container {
+    gap: 20px !important;
+  }
+  .action__container main form a.responsive-hd {
+    display: none;
+  }
+  .action__container main form .span--limited {
+    font-size: var(--font-size-sm);
+  }
+  .action__container main form input {
+    padding: 15px !important;
+  }
+  .action__container main form .page__title__container h3 {
+    font-size: var(--font-size-xg) !important;
+    line-height: 30px !important;
+  }
+  .action__container main section.first__time__container {
+    gap: 20px !important;
+  }
+  .action__container main section.first__time__container .section__title h3 {
+    font-size: var(--font-size-xg) !important;
+    line-height: 30px !important;
+  }
+  .action__container main section.first__time__container .button__container a {
+    padding: 1.2rem !important;
+  }
+}
 /*/////////////////////// Dispositivos extra extra grandes (grandes áreas de trabalho maior ainda, 1500px e acima) ///////////////////////*/
 /*/////////////////////// Dispositivos menores que extra grandes (abaixo de 1066px) ///////////////////////*/
 .container {

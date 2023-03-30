@@ -76,7 +76,67 @@ Media Querys Mobile
 }
 
 /*/////////////////////// Dispositivos extra grandes (grandes áreas de trabalho, 1200px e acima) /////////////////////////////////////////*/
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1860px) {
+  .action__container {
+    main {
+      padding: 30px 25px !important;
+      gap: 20px !important;
+      max-height: 100vh;
+      form {
+
+        .responsive-hd-title {
+          width: 100% !important;
+        }
+
+        .button__container {
+          gap: 20px !important;
+        }
+
+        a {
+          &.responsive-hd {
+            display: none;
+          }
+        }
+
+        gap: 20px !important;
+
+        .span--limited {
+          font-size: var(--font-size-sm);
+        }
+
+        input {
+          padding: 15px !important;
+        }
+
+        .page__title__container {
+          h3 {
+            font-size: var(--font-size-xg) !important;
+            line-height: 30px !important;
+          }
+        }
+
+        
+      }
+      section {
+        &.first__time__container {
+          gap: 20px !important;
+          .section__title {
+            h3 {
+              font-size: var(--font-size-xg) !important;
+              line-height: 30px !important;         
+            }
+          }
+
+          .button__container {
+            a {
+              padding: 1.2rem !important;
+            }
+          }
+
+        }
+      }
+    }
+  }
 }
 
 /*/////////////////////// Dispositivos extra extra grandes (grandes áreas de trabalho maior ainda, 1500px e acima) ///////////////////////*/
